@@ -1,0 +1,23 @@
+{
+  "name": "angular-typescript",
+  "version": "0.0.1",
+  "description": "AngularJS 1 application implemented with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawelchojnacki/angular-typescript.git"
+  },
+  "keywords": [
+    "angular",
+    "typescript"
+  ],
+  "author": "Pawel 'alxd' Chojnacki",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pawelchojnacki/angular-typescript/issues"
+  },
+  "homepage": "https://github.com/pawelchojnacki/angular-typescript#readme"
+}
