@@ -20,3 +20,22 @@ class LibraryBook extends Book {
     this._available = isAvailable;
   }
 }
+
+class Library {
+  books: LibraryBook[] = [];
+  addBooks(...newBooks: LibraryBook[]) {
+    this.books.push(...newBooks);
+  }
+  checkOut(book: LibraryBook) {
+    book.available = false;
+  }
+  checkIn(book: LibraryBook) {
+    book.available = true;
+  }
+  printBooks() {
+    for (var book of this.books) {
+      let {title, isbn} = book;
+      console.log(`Title: '${title}', ISBN: ${isbn}`);
+    }
+  }
+}

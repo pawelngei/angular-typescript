@@ -31,3 +31,30 @@ var LibraryBook = (function (_super) {
     });
     return LibraryBook;
 })(Book);
+var Library = (function () {
+    function Library() {
+        this.books = [];
+    }
+    Library.prototype.addBooks = function () {
+        var newBooks = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            newBooks[_i - 0] = arguments[_i];
+        }
+        (_a = this.books).push.apply(_a, newBooks);
+        var _a;
+    };
+    Library.prototype.checkOut = function (book) {
+        book.available = false;
+    };
+    Library.prototype.checkIn = function (book) {
+        book.available = true;
+    };
+    Library.prototype.printBooks = function () {
+        for (var _i = 0, _a = this.books; _i < _a.length; _i++) {
+            var book = _a[_i];
+            var title = book.title, isbn = book.isbn;
+            console.log("Title: '" + title + "', ISBN: " + isbn);
+        }
+    };
+    return Library;
+})();
