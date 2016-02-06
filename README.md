@@ -76,7 +76,12 @@ A small Angular project to get a grasp on TypeScript with Angular 1.0 and Grunt 
  - Differences between Angular 1 and 2
  - Your first Angular 2 app
  - `ng-upgrade`
- 
+
+## (if we have time) Testing Angular
+ - Jasmine, Mocha, Karma, Protractor?
+ - Unit tests
+ - Testing improves quality of code
+
 ## Books I recommend:
  - Douglas Crockford:  JavaScript: The Good Parts - http://shop.oreilly.com/product/9780596517748.do
  - Shyam Seshadri, Brad Green: AngularJS: Up and Running - http://shop.oreilly.com/product/0636920033486.do
