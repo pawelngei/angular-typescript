@@ -58,3 +58,10 @@ var Library = (function () {
     };
     return Library;
 })();
+var bookA = new LibraryBook('Pan Tadeusz', 987654321);
+var bookB = new LibraryBook('Pani Tadeuszowa', 987654322);
+var library = new Library();
+library.addBooks(bookA, bookB);
+library.printBooks();
+library.checkOut(bookA);
+library.checkIn(bookA);

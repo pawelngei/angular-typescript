@@ -39,3 +39,11 @@ class Library {
     }
   }
 }
+
+let bookA = new LibraryBook('Pan Tadeusz', 987654321);
+let bookB = new LibraryBook('Pani Tadeuszowa', 987654322);
+let library = new Library();
+library.addBooks(bookA, bookB);
+library.printBooks();
+library.checkOut(bookA);
+library.checkIn(bookA);
