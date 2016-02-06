@@ -6,10 +6,5 @@ function hello(name: string) {
 document.body.innerHTML = hello('world!');
 
 class Book {
-  title: string;
-  isbn: number;
-  constructor(title: string, isbn: number) {
-    this.title = title;
-    this.isbn = isbn;
-  }
+  constructor(public title:string, public isbn:number) {}
 }
