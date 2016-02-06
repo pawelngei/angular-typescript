@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/pawelchojnacki/angular-typescript/issues"
   },
-  "homepage": "https://github.com/pawelchojnacki/angular-typescript#readme"
+  "homepage": "https://github.com/pawelchojnacki/angular-typescript#readme",
+  "devDependencies": {
+    "typescript": "^1.7.5"
+  }
 }
