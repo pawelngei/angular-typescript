@@ -77,8 +77,8 @@ A small Angular project to get a grasp on TypeScript with Angular 1.0 and Grunt 
 ## Angular 2
  - What is Angular 2: https://angular.io/
  - Differences between Angular 1 and 2
- - Your first Angular 2 app
- - `ng-upgrade`
+ - Your first Angular 2 app: https://angular.io/docs/ts/latest/quickstart.html
+ - `ng-upgrade` https://angular.io/docs/ts/latest/guide/upgrade.html
 
 ## (if we have time) Testing Angular
  - Jasmine, Mocha, Karma, Protractor?
