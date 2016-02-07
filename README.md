@@ -11,8 +11,10 @@ A small Angular project to get a grasp on TypeScript with Angular 1.0 and Grunt 
 
 ## Webapp structure with npm and Grunt
  - Node and npm: https://nodejs.org/en/
+ - Why not bower?
  - Webapp scaffolder: http://yeoman.io/
- - Grunt: http://gruntjs.com/
+ - Scaffolding for Angular: https://www.npmjs.com/package/generator-angular-typescript | https://www.npmjs.com/package/generator-tsangular
+ - Grunt, gulp, browserify and webpack: http://gruntjs.com/
  - TypeScript with Grunt: https://www.npmjs.com/package/grunt-typescript
  - [Modules]
  - [Basics: concat, compile, minify, uglify, http server]
@@ -73,6 +75,7 @@ A small Angular project to get a grasp on TypeScript with Angular 1.0 and Grunt 
  - [Best practices for translating your own application]
 
 ## Angular 2
+ - What is Angular 2: https://angular.io/
  - Differences between Angular 1 and 2
  - Your first Angular 2 app
  - `ng-upgrade`
