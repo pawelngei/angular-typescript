@@ -1,6 +1,12 @@
 # angular-typescript
 A small Angular project to get a grasp on TypeScript with Angular 1.0 and Grunt (just to prove it's doable and way less convenient than Webpack)
 
+This project is divided into three parts:
+
+ - Angular VanillaJS implementation
+ - Angular TypeScript implementation
+ - REST API in Node to serve both of them
+
 ## JavaScript and friends
  - Best source on JavaScript: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
  - JavaScript's WATs: https://www.destroyallsoftware.com/talks/wat

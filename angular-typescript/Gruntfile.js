@@ -15,8 +15,10 @@ module.exports = function (grunt) {
       }
     },
     watch: {
-      files: 'app/**/*.ts',
-      tasks: ['typescript']
+      typeScript: {
+        files: 'app/**/*.ts',
+        tasks: ['typescript']
+      }
     }
   });
   grunt.registerTask('default', ['typescript', 'watch']);
