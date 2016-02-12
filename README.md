@@ -59,13 +59,6 @@ This project is divided into three parts:
  - Parameters to filter
  - Your own filters
 
-## Services, factories and REST architecture
- - Differences between Services and Factories
- - What about the REST?
- - AJAX with `$http`
- - Consume REST resources with `$resource`
- - Asynchronous programming and `$q` promises
-
 ## Directives
  - Definition and API: finally a place for my jQuery!
  - `$scoping` with a directive
@@ -74,6 +67,14 @@ This project is divided into three parts:
  - Transclusion
  - `$parse`, `$sompile`, `angular.element`
  - `e.preventDefault` magic
+
+## Services, factories and REST architecture
+ - Differences between Services and Factories: http://stackoverflow.com/a/26924234
+ - What about the REST?
+ - AJAX with `$http`
+ - Consume REST resources with `$resource`
+ - Asynchronous programming and `$q` promises
+ - Swagger UI for your lovely backend guy: http://swagger.io/, http://bitoftech.net/2014/08/25/asp-net-web-api-documentation-using-swagger/
 
 ## Internationalisation (i18n)
  - How to activate internationalization in a project
