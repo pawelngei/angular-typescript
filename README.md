@@ -75,6 +75,7 @@ This project is divided into three parts:
  - Consume REST resources with `$resource`
  - Asynchronous programming and `$q` promises
  - Swagger UI for your lovely backend guy: http://swagger.io/, http://bitoftech.net/2014/08/25/asp-net-web-api-documentation-using-swagger/
+ - Cancelling `$http` requests: http://odetocode.com/blogs/scott/archive/2014/04/24/canceling-http-requests-in-angularjs.aspx
 
 ## Internationalisation (i18n)
  - How to activate internationalization in a project
